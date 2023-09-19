@@ -21,7 +21,7 @@
 title: eza
 email: cafkafk@eza.rocks
 description: >- # this means to ignore newlines until "baseurl:"
-  eza is a modern, maintained replacement for the venerable file-listing command-line program ls that ships with Unix and Linux operating systems, giving it more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
+   A modern, maintained replacement for ls
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eza.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
