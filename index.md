@@ -1,9 +1,3 @@
----
-layout: page
-title: "EZA"
-permalink: /
----
-
 <div align="center">
 
 [![Built with Nix](https://img.shields.io/badge/Built_With-Nix-5277C3.svg?logo=nixos&labelColor=73C3D5)](https://nixos.org)
