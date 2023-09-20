@@ -1,6 +1,8 @@
+---
 layout: page
 title: "EZA"
 permalink: /
+---
 
 <div align="center">
 
