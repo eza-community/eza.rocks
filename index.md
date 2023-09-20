@@ -1,5 +1,3 @@
-<div align="center">
-
 [![Built with Nix](https://img.shields.io/badge/Built_With-Nix-5277C3.svg?logo=nixos&labelColor=73C3D5)](https://nixos.org)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
@@ -8,8 +6,6 @@
 [![Unit tests](https://github.com/eza-community/eza/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/eza-community/eza/actions/workflows/unit-tests.yml)
 ![Crates.io](https://img.shields.io/crates/v/eza?link=https%3A%2F%2Fcrates.io%2Fcrates%2Feza)
 ![Crates.io](https://img.shields.io/crates/l/eza?link=https%3A%2F%2Fgithub.com%2Feza-community%2Feza%2Fblob%2Fmain%2FLICENCE)
-
-</div>
 
 ![Screenshots of eza](screenshots.png)
 
@@ -38,9 +34,7 @@ By deliberately making some decisions differently, eza attempts to be a more fea
 
 ---
 
-<a id="try-it">
 <h1>Try it!</h1>
-</a>
 
 ### Nix ❄️
 
@@ -52,9 +46,7 @@ Nix will build eza and run it.
 
 If you want to pass arguments this way, use e.g. `nix run github:eza-community/eza -- -ol`.
 
-<a id="installation">
 <h1>Installation</h1>
-</a>
 
 eza is available for Windows, macOS and Linux.
 
