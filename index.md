@@ -143,9 +143,13 @@ The preceding repository also contains the Bash, Fish, and Zsh completions.
 
 ### Fedora
 
-Fedora support is in the works.
+[![Fedora 39 package](https://repology.org/badge/version-for-repo/fedora_39/rust:eza.svg)](https://repology.org/project/rust:eza/versions)
 
-https://bugzilla.redhat.com/show_bug.cgi?id=2238264
+On Fedora, the [eza](https://packages.fedoraproject.org/pkgs/rust-eza/eza) package provides eza and its shell completions.
+
+```shell
+sudo dnf install eza
+```
 
 ### Void Linux
 
