@@ -143,7 +143,7 @@ The preceding repository also contains the Bash, Fish, and Zsh completions.
 
 ### Fedora
 
-[![Fedora 39 package](https://repology.org/badge/version-for-repo/fedora_39/rust:eza.svg)](https://repology.org/project/rust:eza/versions)
+[![Fedora 40 package](https://repology.org/badge/version-for-repo/fedora_40/eza.svg)](https://repology.org/project/eza/versions)
 
 On Fedora, the [eza](https://packages.fedoraproject.org/pkgs/rust-eza/eza) package provides eza and its shell completions.
 
