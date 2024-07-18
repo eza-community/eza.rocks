@@ -47,7 +47,7 @@ If you want to pass arguments this way, use e.g. `nix run github:eza-community/e
 
 # Installation 
 
-eza is available for Windows, macOS and Linux.
+eza is available for Windows, macOS, Linux, and BSDs.
 
 ### Cargo (crates.io)
 
@@ -205,6 +205,9 @@ To install eza, run:
 ```shell
 scoop install eza
 ```
+### FreeBSD
+
+https://www.freshports.org/sysutils/eza/
 
 ### Completions
 
