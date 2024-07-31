@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Nix Flake Stuff
+.pre-commit-config.yaml
+.direnv/*
