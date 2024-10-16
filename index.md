@@ -249,31 +249,31 @@ eza’s options are almost, but not quite, entirely unlike `ls`’s.
 
 ### Display options
 
-- **-1**, **--oneline**: display one entry per line
-- **-G**, **--grid**: display entries as a grid (default)
-- **-l**, **--long**: display extended details and attributes
-- **-R**, **--recurse**: recurse into directories
-- **-T**, **--tree**: recurse into directories as a tree
-- **-x**, **--across**: sort the grid across, rather than downwards
-- **-F**, **--classify**: display type indicator by file names
-- **--colo[u]r**: when to use terminal colours
-- **--colo[u]r-scale**: highlight levels of file sizes distinctly
-- **--icons**: display icons
-- **--no-icons**: don't display icons (always overrides --icons)
-- **--hyperlink**: display entries as hyperlinks
-- **-w**, **--width=(columns)**: set screen width in columns
+- **-1**, **\-\-oneline**: display one entry per line
+- **-G**, **\-\-grid**: display entries as a grid (default)
+- **-l**, **\-\-long**: display extended details and attributes
+- **-R**, **\-\-recurse**: recurse into directories
+- **-T**, **\-\-tree**: recurse into directories as a tree
+- **-x**, **\-\-across**: sort the grid across, rather than downwards
+- **-F**, **\-\-classify**: display type indicator by file names
+- **\-\-colo[u]r**: when to use terminal colours
+- **\-\-colo[u]r-scale**: highlight levels of file sizes distinctly
+- **\-\-icons**: display icons
+- **\-\-no-icons**: don't display icons (always overrides --icons)
+- **\-\-hyperlink**: display entries as hyperlinks
+- **-w**, **\-\-width=(columns)**: set screen width in columns
 
 ### Filtering options
 
-- **-a**, **--all**: show hidden and 'dot' files
-- **-d**, **--list-dirs**: list directories like regular files
-- **-L**, **--level=(depth)**: limit the depth of recursion
-- **-r**, **--reverse**: reverse the sort order
-- **-s**, **--sort=(field)**: which field to sort by
-- **--group-directories-first**: list directories before other files
-- **-D**, **--only-dirs**: list only directories
-- **--git-ignore**: ignore files mentioned in `.gitignore`
-- **-I**, **--ignore-glob=(globs)**: glob patterns (pipe-separated) of files to ignore
+- **-a**, **\-\-all**: show hidden and 'dot' files
+- **-d**, **\-\-list-dirs**: list directories like regular files
+- **-L**, **\-\-level=(depth)**: limit the depth of recursion
+- **-r**, **\-\-reverse**: reverse the sort order
+- **-s**, **\-\-sort=(field)**: which field to sort by
+- **\-\-group-directories-first**: list directories before other files
+- **-D**, **\-\-only-dirs**: list only directories
+- **\-\-git-ignore**: ignore files mentioned in `.gitignore`
+- **-I**, **\-\-ignore-glob=(globs)**: glob patterns (pipe-separated) of files to ignore
 
 Pass the `--all` option twice to also show the `.` and `..` directories.
 
@@ -281,36 +281,36 @@ Pass the `--all` option twice to also show the `.` and `..` directories.
 
 These options are available when running with `--long` (`-l`):
 
-- **-b**, **--binary**: list file sizes with binary prefixes
-- **-B**, **--bytes**: list file sizes in bytes, without any prefixes
-- **-g**, **--group**: list each file’s group
-- **-h**, **--header**: add a header row to each column
-- **-H**, **--links**: list each file’s number of hard links
-- **-i**, **--inode**: list each file’s inode number
-- **-m**, **--modified**: use the modified timestamp field
-- **-M**, **--mounts**: Show mount details (Linux and MacOS only).
-- **-S**, **--blocksize**: show size of allocated file system blocks
-- **-t**, **--time=(field)**: which timestamp field to use
-- **-u**, **--accessed**: use the accessed timestamp field
-- **-U**, **--created**: use the created timestamp field
-- **-X**, **--dereference**: dereference symlinks for file information
-- **-Z**, **--context**: list each file’s security context
-- **-@**, **--extended**: list each file’s extended attributes and sizes
-- **--changed**: use the changed timestamp field
-- **--git**: list each file’s Git status, if tracked or ignored
-- **--git-repos**: list each directory’s Git status, if tracked
-- **--git-repos-no-status**:  list whether a directory is a Git repository, but not its status (faster)
-- **--no-git**: suppress Git status (always overrides `--git`, `--git-repos`, `--git-repos-no-status`)
-- **--time-style**: how to format timestamps
-- **--no-permissions**: suppress the permissions field
-- **-o**, **--octal-permissions**: list each file's permission in octal format
-- **--no-filesize**: suppress the filesize field
-- **--no-user**: suppress the user field
-- **--no-time**: suppress the time field
+- **-b**, **\-\-binary**: list file sizes with binary prefixes
+- **-B**, **\-\-bytes**: list file sizes in bytes, without any prefixes
+- **-g**, **\-\-group**: list each file’s group
+- **-h**, **\-\-header**: add a header row to each column
+- **-H**, **\-\-links**: list each file’s number of hard links
+- **-i**, **\-\-inode**: list each file’s inode number
+- **-m**, **\-\-modified**: use the modified timestamp field
+- **-M**, **\-\-mounts**: Show mount details (Linux and MacOS only).
+- **-S**, **\-\-blocksize**: show size of allocated file system blocks
+- **-t**, **\-\-time=(field)**: which timestamp field to use
+- **-u**, **\-\-accessed**: use the accessed timestamp field
+- **-U**, **\-\-created**: use the created timestamp field
+- **-X**, **\-\-dereference**: dereference symlinks for file information
+- **-Z**, **\-\-context**: list each file’s security context
+- **-@**, **\-\-extended**: list each file’s extended attributes and sizes
+- **\-\-changed**: use the changed timestamp field
+- **\-\-git**: list each file’s Git status, if tracked or ignored
+- **\-\-git-repos**: list each directory’s Git status, if tracked
+- **\-\-git-repos-no-status**:  list whether a directory is a Git repository, but not its status (faster)
+- **\-\-no-git**: suppress Git status (always overrides `--git`, `--git-repos`, `--git-repos-no-status`)
+- **\-\-time-style**: how to format timestamps
+- **\-\-no-permissions**: suppress the permissions field
+- **-o**, **\-\-octal-permissions**: list each file's permission in octal format
+- **\-\-no-filesize**: suppress the filesize field
+- **\-\-no-user**: suppress the user field
+- **\-\-no-time**: suppress the time field
 
 Some of the options accept parameters:
 
-- Valid **--color** options are **always**, **automatic**, and **never**.
+- Valid **\-\-color** options are **always**, **automatic**, and **never**.
 - Valid sort fields are **accessed**, **changed**, **created**, **extension**, **Extension**, **inode**, **modified**, **name**, **Name**, **size**, **type**, and **none**. Fields starting with a capital letter sort uppercase before lowercase. The modified field has the aliases **date**, **time**, and **newest**, while its reverse has the aliases **age** and **oldest**.
 - Valid time fields are **modified**, **changed**, **accessed**, and **created**.
 - Valid time styles are **default**, **iso**, **long-iso**, **full-iso**, and **relative**.
