@@ -21,7 +21,7 @@
 title: eza
 email: cafkafk@eza.rocks
 description: >- # this means to ignore newlines until "baseurl:"
-   A modern, maintained replacement for ls
+   A modern, maintained replacement for ls, written in rust
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eza.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
