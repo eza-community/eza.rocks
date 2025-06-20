@@ -211,7 +211,23 @@ scoop install eza
 ```
 ### FreeBSD
 
-https://www.freshports.org/sysutils/eza/
+Eza is available as a FreeBSD [port](https://www.freshports.org/sysutils/eza/).
+
+To install eza, run (as root):
+
+```shell
+pkg install eza
+```
+
+### OpenBSD
+
+Eza is available as an OpenBSD [port](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/sysutils/eza/).
+
+To install eza, run:
+
+```shell
+doas pkg_add eza
+```
 
 ### Completions
 
